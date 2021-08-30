@@ -1,0 +1,56 @@
+.grid-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.card {
+  margin: 2rem;
+}
+.name-flex{
+  display: flex;
+  flex-direction: row;
+}
+.name-flex>*{
+  padding: 0.5rem;
+}
+.header {
+  height: 3rem;
+  width: 100vw;
+  background-color: #3f51b566;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  justify-items: center;
+  background-color: #3f51b566;
+}
+
+.Footer > * {
+  padding: 2rem;
+}
+@media (max-width: 768px) {
+  .Footer > * {
+    padding: 0rem;
+  }
+  .header {
+    height: 5rem;
+  }
+}
+
+.Review{
+  width: 100%;
+}
+
+.Progress{
+  width: 80%;
+}
